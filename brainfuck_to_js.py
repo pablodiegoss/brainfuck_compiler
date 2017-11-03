@@ -42,7 +42,11 @@ def convert_to_js(char):
     elif(char == '.'):
         text = 'window.alert(String.fromCharCode(fita[i]))\n'
     elif(char == ','):
-        text = 'fita[i] = window.prompt().charCodeAt(0)\n'
+        text += 'fita[i] = window.prompt().charCodeAt(0)\n'
+    elif(char == '['):
+        text += 'while(fita[i] != 0){'
+    elif(char == ']'):
+        text += '}'
 
     return text
 
