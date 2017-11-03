@@ -1,1 +1,6 @@
-# brainfuck_compiler
+# Brainfuck compiler to JavaScript
+
+## Usage
+
+
+# Criadores
